@@ -7,7 +7,7 @@ describe 'Writing a function that returns the largest digit in that number' do
   end
 
   it 'works with less than 4 digit numbers' do 
-  	  expect(largest_digit(120)).to eq(2)
+  	 expect(largest_digit(120)).to eq(2)
   end
 
   it 'returns false if number is greater than 4 digits' do
