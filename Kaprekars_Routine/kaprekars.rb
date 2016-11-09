@@ -4,12 +4,12 @@ end
 
 
 def largest_digit(num)
-	array = num.to_s.chars.map(&:to_i)
-	if array.length > 4
-		return false
-	else
-		return array.max
-	end
+  array = num.to_s.chars.map(&:to_i)
+  if array.length > 4
+    return false
+  else
+    return array.max
+  end
 end
 
 def desc_digits(num, desc=true)
